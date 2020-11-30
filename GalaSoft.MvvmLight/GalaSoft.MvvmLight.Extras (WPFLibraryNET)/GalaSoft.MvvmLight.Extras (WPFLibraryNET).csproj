@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>GalaSoft.MvvmLight.Extras__WPFLibraryNET_</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\GalaSoft.MvvmLight (PCL)\Helpers\DesignerPlatformLibrary.cs" Link="Helpers\DesignerPlatformLibrary.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\GalaSoft.MvvmLight (PCL)\License.txt" Link="License.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonServiceLocator" Version="2.0.5" />
+  </ItemGroup>
+
+</Project>
