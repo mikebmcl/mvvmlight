@@ -2,14 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>GalaSoft.MvvmLight.Platform__WPFLibraryNET_</RootNamespace>
+    <RootNamespace>GalaSoft.MvvmLight</RootNamespace>
     <UseWPF>true</UseWPF>
+    <AssemblyName>GalaSoft.MvvmLight.Platform</AssemblyName>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="..\GalaSoft.MvvmLight (PCL)\Command\RelayCommand.cs" Link="Command\RelayCommand.cs" />
-    <Compile Include="..\GalaSoft.MvvmLight (PCL)\Command\RelayCommandGeneric.cs" Link="Command\RelayCommandGeneric.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\GalaSoft.MvvmLight (PCL)\License.txt" Link="License.txt" />
@@ -20,7 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GalaSoft.MvvmLight (WPFLibraryNET)\GalaSoft.MvvmLight (WPFLibraryNET).csproj" />
+    <ProjectReference Include="..\GalaSoft.MvvmLight (WPFLibraryNET)\GalaSoft.MvvmLight (WPFLibraryNET).csproj">
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

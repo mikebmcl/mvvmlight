@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>GalaSoft.MvvmLight__WPFLibraryNET_</RootNamespace>
+    <RootNamespace>GalaSoft.MvvmLight</RootNamespace>
     <UseWPF>true</UseWPF>
+    <AssemblyName>GalaSoft.MvvmLight</AssemblyName>
   </PropertyGroup>
 
 </Project>
